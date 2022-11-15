@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- headings tag -indicates importance of a heading with h1 having highest improtance and h6 least -->
+        <h1>this is heading 1</h1>
+
+        <!-- paragraph tag -->
+        <p>this is a paragraph spacing      ignored</p>
+
+        <!-- paragraph tag-spacing not ignored -->
+        <pre>paragraph with spacing        not ignored</pre>
+
+    </header>
+    <main>
+        <p>html is not case sensitive</p>
+        <!-- means small p is same as capital P -->
+        <!-- <head> = </HEAD> -->
+
+        <!-- anchor tag -clickable text , links to somewhere else-->
+        <!-- href is called attribute-check mdn reference for further info -->
+        <a href="https://www.google.com/">ling to another website, here google</a>
+        
+
+
+        <!-- image tag -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI5x6k5q5YKfpLFGxrcRui0giJxnDfMByNNA&usqp=CAU" alt="national flag">
+        
+
+
+        <b>bold tag</b>
+        <i>italic tag</i> <br>
+        <u>underline tag</u>
+        
+        <!-- Break line tag -->
+        <br>
+        
+        <big>big text tag</big>
+        <small>small text tag</small>
+        
+        <!-- horizontal ruler tag -->
+        <hr>
+
+        <sub>subscript tag</sub>
+        <sup>superscript tag</sup>
+        <!-- examples -->
+        <p>H <sub>2</sub>O</p>
+        <P>A <sup>2</sup> + B</P>
+        <hr>
+        <section>for a certain section on a page</section>
+        <article>for an article</article>
+        <aside>for content aside main content like ads
+        </aside>
+        <hr>
+        <!-- BLOCK ELEMENTS -->
+        <div>container for other html tags for purposes like color in css later etc or any collective changes,
+            block element- takes full device-width</div>
+        <!-- other examples -->
+        <header>this tag</header>
+        <footer>this </footer>
+
+        <!-- end -->
+        <span>also a container but takes only space neede</span>
+        <!-- examples -->
+        <!-- <img src="" alt="">, <a href=""></a>, <input type="text">, etc  -->
+
+
+        <!--LISTS -->
+        <!-- unordered list-->
+        <ul>
+            <li>bat</li>
+                <ul>
+                   <li>brand : MRF</li>
+                    <li>material : kashmir willow</li>
+                </ul>
+            <li>ball</li>
+                <ul>
+                    <li>brand : ksports</li>
+                    <li>material : leather</li>
+                </ul>
+        </ul> 
+
+        <!-- ordered list -->
+        <ol>
+            <li>bat</li>
+                <ol>
+                   <li>brand : MRF</li>
+                    <li>material : kashmir willow</li>
+                </ol>
+            <li>ball</li>
+                <ol>
+                    <li>brand : ksports</li>
+                    <li>material : leather</li>
+                </ol>
+        </ol>
+        <hr>
+        <!-- tables -->
+
+        <table>
+            <caption>
+                caption tag
+            </caption>
+            <table>
+
+            
+            <!-- table row -->
+            <tr>
+                <!-- table head -->
+                <th>head1</th>
+                <!-- to merge two columns or more -->
+                <th colspan="2">head2</th>
+            </tr>
+            </table>
+            <tbody>
+
+            
+            <tr>
+                <!-- table data -->
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+            </tbody>
+        </table>
+        <hr>
+
+
+        <!--FORMS- used to collect data from the user -->
+        <form action="">
+            <input type="text" placeholder="username">
+            <input type="password" placeholder="password">
+            <br>
+            <input type="radio" class="XI" name="class">class XI
+            <input type="radio" class="XII" name="class">class XII
+            <!-- to make name clickable -->
+            <label for="101">
+                <input type="radio" class="X" name="class" id="101">class X
+            </label>
+            <br>
+            <!-- checkbox - to select multiple options -->
+            <label for="html">
+                <input type="checkbox" value="math" name="skill" id="">math
+                <input type="checkbox" value="science" name="skill" id="">science
+                <input type="checkbox" value="html" name="skill" id="">html
+            </label><textarea name="feedback" id="" cols="30" rows="10">please give us feedback</textarea>
+            <br>
+            select your skill
+            <select name="skill">
+                <option value="math">math</option>
+                <option value="html">html</option>
+            </select>
+
+        </form>
+
+        <!-- iframe tag- website inside website -->
+        <iframe src="" frameborder="0"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+
+        <!-- semantic tags- those which are understandable like h1, header etc -->
+
+        
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
